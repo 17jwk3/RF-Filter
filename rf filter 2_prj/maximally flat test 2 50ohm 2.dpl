@@ -1,9 +1,9 @@
 <QucsStudio Schematic 4.3.1>
 <Properties>
-View=0,-60,800,800,1,0,0
+View=0,0,800,800,1,0,0
 Grid=10,10,0
 DataSet=*.dat
-DataDisplay=*.pcb
+DataDisplay=*.sch
 OpenDisplay=1
 showFrame=0
 FrameText0=Title
@@ -20,11 +20,13 @@ FrameText3=Revision:
 <Diagrams>
 <Rect 100 250 360 220 31 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
 	<Legend 10 -100 0>
-	<"dB(S11)" "" #0000ff 0 3 0 0 0 0 "">
-	<"dB(S21)" "" #ff0000 0 3 0 0 0 0 "">
-	  <Mkr 1.9e+09 -30 60 3 1 0 0 0 50>
-	  <Mkr 1.3e+09 390 -220 3 1 0 0 0 50>
+	<"dB(S[1,1])" "" #0000ff 0 3 0 0 0 0 "">
+	<"dB(S[2,1])" "" #ff0000 0 3 0 0 0 0 "">
 </Rect>
+<Smith 520 250 220 220 31 #c0c0c0 1 00 1 0 1 1 1 0 1 1 1 0 1 1 315 0 225 "" "" "">
+	<Legend 10 -100 0>
+	<"S[1,1]" "" #0000ff 0 3 0 0 0 0 "">
+</Smith>
 </Diagrams>
 <Paintings>
 </Paintings>
