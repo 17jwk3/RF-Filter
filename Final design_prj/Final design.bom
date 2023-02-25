@@ -1,0 +1,21 @@
+Bill of Material: Final design.sch
+==============================================
+
+Type	Name	Package	Parameters
+--------------------------------------------------------
+Pac	P2	SUBCLICK	2	50	0	1.0 GHz	26.85
+SUBST	Sub1	---	4.34	0.0015748	3mil	0.02	1.72e-08	0.1µm	Metal	Hammerstad	Kirschning
+MLIN	MS15	---	Sub1	2.95653mm	1.03468cm	26.85
+MLIN	MS23	---	Sub1	2.95653mm	1.03468cm	26.85
+MLIN	MS17	---	Sub1	1.1476mm	1.48583cm	26.85
+MLIN	MS13	---	Sub1	0.414737mm	1.11374cm	26.85
+MLIN	MS11	---	Sub1	2.03739mm	1.15224cm	26.85
+MLIN	MS19	---	Sub1	2.15553mm	1.05052cm	26.85
+MLIN	MS21	---	Sub1	0.3084mm	0.302142cm	26.85
+MTEE	MS16	---	Sub1	2.15553mm	0.414737mm	1.1476mm	showNumbers
+MTEE	MS20	---	Sub1	2.95653mm	2.15553mm	0.3084mm	showNumbers
+MOPEN	MS22	---	Sub1	0.3084mm	Kirschning
+MTEE	MS10	---	Sub1	0.414737mm	2.95653mm	2.03739mm	showNumbers
+MOPEN	MS12	---	Sub1	2.03739mm	Kirschning
+MOPEN	MS18	---	Sub1	1.1476mm	Kirschning
+Pac	P1	SUBCLICK	1	50	0	1.0 GHz	26.85
