@@ -33,6 +33,6 @@ The result of the filter measured with a spectrum analyzer
 
 The final design achieved a very close freqeuncy  cutoff of 1.935Ghz compared to the simulated 2.0Ghz.
 
-Going forward it could be beneficial to have the filter attenuate faster, usually a draw back from steaper attentuation when simulating was the bandwidth of the filter was reduced. 
+Going forward it could be beneficial to have the filter attenuate faster, usually a draw back from steeper attentuation when simulating was the bandwidth of the filter was reduced. 
 
 Overall I am happy with the results and am excited to manufacture the amplifier PCB with matching network using open stubs. 
