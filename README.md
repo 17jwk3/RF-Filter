@@ -22,7 +22,7 @@ The EM simulation of the PCB layout:
 
 <img alt="" src="media/em_simulation.PNG" width="600"/>
 
-### verification and Lab Testing
+### Verification and Lab Testing
 
 The result of the filter measured with a spectrum analyzer 
 
@@ -31,7 +31,7 @@ The result of the filter measured with a spectrum analyzer
 
 ### Takeaways
 
-The final design achieved a very close freqeuncycutoff of 1.935Ghz compared to the simulated 2.0Ghz.
+The final design achieved a very close freqeuncy  cutoff of 1.935Ghz compared to the simulated 2.0Ghz.
 
 Going forward it could be beneficial to have the filter attenuate faster, usually a draw back from steaper attentuation when simulating was the bandwidth of the filter was reduced. 
 
