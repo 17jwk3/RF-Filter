@@ -36,6 +36,6 @@ The final design achieved a very close freqeuncy  cutoff of 1.935Ghz compared to
 <img alt="" src="media/Filter_1.jpg" wdith ="600"/>
 <img alt="" src="media/Filter_2.jpg" wdith ="600"/>
 
-Going forward it could be beneficial to have the filter attenuate faster, usually a draw back from steeper attentuation when simulating was the bandwidth of the filter was reduced. 
+Going forward it could be beneficial to have the filter attenuate faster. I found the draw back from steeper attentuation when simulating was the bandwidth of the filter was reduced, since the bandwidth was more important I sacraficed the attentuation. 
 
-Overall I am happy with the results and am excited to manufacture the amplifier PCB with matching network using open stubs. 
+Overall I am happy with the results and am excited to manufacture a amplifier PCB with a matching network using open stubs. 
